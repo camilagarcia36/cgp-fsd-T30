@@ -11,7 +11,7 @@ for (var variable of valores)
             str1 = variable;
         }
         else
-        {
+        { 
             if(str1.length > variable.length)
             {
                 msg += "\nLa palabra "+str1+"("+str1.length+") es mas larga que "+variable+"("+variable.length+")\n";
